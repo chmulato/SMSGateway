@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_config_imap_parameters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:text="@string/imap_config_parameters" />
+
+    <CheckBox
+        android:id="@+id/check_box_imap_request_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imap_request_delivery" />
+
+    <TextView
+        android:id="@+id/label_imap_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/imap_server_host" />
+
+    <EditText
+        android:id="@+id/edit_imap_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_imap_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/imap_server_port" />
+
+    <EditText
+        android:id="@+id/edit_imap_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:id="@+id/check_box_imap_SSL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imap_ssl" />
+
+    <TextView
+        android:id="@+id/label_imap_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/imap_username" />
+
+    <EditText
+        android:id="@+id/edit_imap_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_imap_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/imap_password" />
+
+    <EditText
+        android:id="@+id/edit_imap_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_imap_interval"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dip"
+            android:text="@string/imap_interval" />
+
+        <EditText
+            android:id="@+id/edit_imap_interval"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:padding="8dip"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/check_box_imap_delete_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imap_delete_email" />
+
+    <CheckBox
+        android:id="@+id/check_box_imap_oauth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imap_oauth2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_imap_folder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dip"
+            android:text="@string/imap_folder" />
+
+        <EditText
+            android:id="@+id/edit_imap_folder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions"
+            android:padding="8dip"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/imap_button_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

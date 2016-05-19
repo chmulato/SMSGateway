@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_startup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:text="@string/smtp_config_parameters" />
+
+    <CheckBox
+        android:id="@+id/check_box_smtp_enable_SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smtp_enable_sms" />
+
+    <CheckBox
+        android:id="@+id/check_box_smtp_delete_SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smtp_delete_sms" />
+
+    <TextView
+        android:id="@+id/label_smtp_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/smtp_server_host" />
+
+    <EditText
+        android:id="@+id/edit_smtp_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_smtp_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/smtp_server_port" />
+
+    <EditText
+        android:id="@+id/edit_smtp_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/check_box_smtp_auth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smtp_auth" />
+
+        <CheckBox
+            android:id="@+id/check_box_smtp_SSL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smtp_ssl" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_smtp_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/smtp_username" />
+
+    <EditText
+        android:id="@+id/edit_smtp_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_smtp_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/smtp_password" />
+
+    <EditText
+        android:id="@+id/edit_smtp_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_smtp_forward_to_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/smtp_forward_to_email" />
+
+    <EditText
+        android:id="@+id/edit_smtp_forward_to_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:id="@+id/check_box_smtp_oauth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smtp_oauth2" />
+
+    <Button
+        android:id="@+id/smtp_button_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

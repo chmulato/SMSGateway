@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_config_pop_parameters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip"
+        android:text="@string/pop_config_parameters" />
+
+    <CheckBox
+        android:id="@+id/check_box_pop_request_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_request_delivery" />
+
+    <TextView
+        android:id="@+id/label_pop_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/pop_server_host" />
+
+    <EditText
+        android:id="@+id/edit_pop_server_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_pop_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/pop_server_port" />
+
+    <EditText
+        android:id="@+id/edit_pop_server_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:id="@+id/check_box_pop_SSL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_ssl" />
+
+    <TextView
+        android:id="@+id/label_pop_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/pop_username" />
+
+    <EditText
+        android:id="@+id/edit_pop_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_pop_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/pop_password" />
+
+    <EditText
+        android:id="@+id/edit_pop_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/label_pop_folder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dip"
+        android:text="@string/pop_folder" />
+
+    <EditText
+        android:id="@+id/edit_pop_folder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:padding="8dip"
+        android:singleLine="true" />
+
+    <CheckBox
+        android:id="@+id/check_box_pop_oauth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_oauth2" />
+
+    <Button
+        android:id="@+id/pop_button_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

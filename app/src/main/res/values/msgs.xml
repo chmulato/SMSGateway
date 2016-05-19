@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fail_msg_internet_connection">Ative conexão Wi-Fi ou 3G!</string>
+    <string name="fail_msg_login">Falha ao logar, tente novamente!</string>
+    <string name="fail_msg_email">Falha ao enviar mensagem, tente novamente!</string>
+    <string name="fail_msg_empty_data">Preencha corrretamente os parâmetros!</string>
+    <string name="fail_msg_server_offline">Servidor offline, contacte administrador chmulato@hotmail.com!</string>
+    <string name="success_sent_msg_email">Mensagem enviada com sucesso!</string>
+    <string name="success_received_msg_email">Mensagem recebida com sucesso!</string>
+</resources>
