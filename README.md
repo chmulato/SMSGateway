@@ -1,1 +1,1 @@
-SMSGateway Project - SMS router by electronic mailbox. (Ongoing).
+Android Project - SMSGateway - SMS router by electronic mailbox. (Ongoing).
