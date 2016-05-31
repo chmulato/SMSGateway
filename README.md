@@ -1,1 +1,1 @@
-"SMSGateway Project - SMS router via electronic mailbox. (Ongoing Project)."
+SMSGateway Project - SMS router via electronic mailbox. (Ongoing).
