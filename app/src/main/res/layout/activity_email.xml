@@ -55,12 +55,16 @@
         android:id="@+id/buttonSend"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send" />
+        android:text="@string/send"
+        android:background="@drawable/screen_border"
+        android:elevation="0dp" />
+
 
     <Button
         android:id="@+id/buttonReceived"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/received" />
+        android:text="@string/received"
+        android:background="@drawable/screen_border"/>
 
 </LinearLayout>

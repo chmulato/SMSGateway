@@ -127,6 +127,7 @@
         android:id="@+id/smtp_button_submit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/submit" />
+        android:text="@string/submit"
+        android:background="@drawable/screen_border"/>
 
 </LinearLayout>

@@ -32,18 +32,21 @@
         android:id="@+id/smsManager"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Send the sms by SmsManager" />
+        android:text="Send the sms by SmsManager"
+        android:background="@drawable/screen_border"/>
 
     <Button
         android:id="@+id/smsSIntent"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Send the sms by SENDTO" />
+        android:text="Send the sms by SENDTO"
+        android:background="@drawable/screen_border"/>
 
     <Button
         android:id="@+id/smsVIntent"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Send the sms by VIEW" />
+        android:text="Send the sms by VIEW"
+        android:background="@drawable/screen_border"/>
 
 </LinearLayout>
